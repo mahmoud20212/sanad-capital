@@ -377,7 +377,7 @@ input:checked+.slider:before {
 
 /* Start Content */
 .content {
-    margin: 33px;
+    margin: 20px;
     flex: 1 1 0;
 }
 
