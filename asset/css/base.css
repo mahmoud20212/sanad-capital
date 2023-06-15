@@ -265,6 +265,7 @@ input:checked+.slider:before {
     background: #FAFAFA;
     padding-right: 24px;
     padding-left: 24px;
+    z-index: 10;
 }
 
 @media (max-width: 1024px) {
@@ -412,13 +413,6 @@ input:checked+.slider:before {
 @media (min-width: 1025px) {
     #show-menu {
         display: none;
-    }
-}
-
-@media (max-width: 399px) {
-    .content.active .header {
-        visibility: hidden;
-        opacity: 0;
     }
 }
 
