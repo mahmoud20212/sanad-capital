@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'DIN Next LT W23';
     src: url('../fonts/ultra-light.ttf');
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
     font-display: swap;
 }
@@ -27,7 +27,7 @@
 @font-face {
     font-family: 'DIN Next LT W23';
     src: url('../fonts/light.ttf');
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
@@ -336,7 +336,7 @@ input:checked+.slider:before {
     .content {
         position: relative;
         right: 0;
-        height: 100vh;
+        /* height: 100vh; */
         transition: .3s linear;
     }
 
