@@ -200,23 +200,26 @@ input:checked+.slider:before {
 
 /* Start Sidebar */
 .sidebar {
+    position: fixed;
     width: 250px;
+    height: 100vh;
     background: var(--grayscale-50);
     padding-right: 24px;
     padding-left: 24px;
     z-index: 10;
+    right: 0;
+    top: 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .sidebar {
-        position: fixed;
         top: 0;
         right: -300px;
         height: 100vh;
         width: 100%;
         max-width: 300px;
         transition: .3s linear;
-        overflow-y: auto;
+        overflow: auto;
     }
 
     .sidebar.active {
@@ -260,6 +263,8 @@ input:checked+.slider:before {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 168px);
 }
 
 .links-box .ul-links {
@@ -275,7 +280,16 @@ input:checked+.slider:before {
     display: flex;
     align-items: center;
     border-radius: 12px;
-    padding: 16px !important;
+    padding: 15px !important;
+}
+
+.links-box .ul-links .link-tag:hover {
+    background: var(--main-color);
+    color: var(--grayscale-50) !important;
+}
+
+.links-box .ul-links .link-item .link-tag:not(.active) {
+    color: #718096;
 }
 
 .links-box .ul-links .link-tag.active {
@@ -283,33 +297,42 @@ input:checked+.slider:before {
     color: var(--grayscale-50);
 }
 
-.links-box .ul-links .link-item .link-tag:not(.active) {
-    color: #718096;
-}
-
 .links-box .ul-links .link-tag .icon {
     font-size: 10px;
 }
 
 .links-box .ul-links .link-tag .link-text {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.2px;
-    margin-right: 13.4px;
+    margin-right: 11px;
+    margin-top: 7px;
 }
 
-.links-box .ul-links .link-tag.active .link-text {
-    font-weight: 700;
-}
+/* .links-box .ul-links .link-tag.active .link-text {
+    font-weight: 400;
+} */
 /* End Sidebar */
 
 /* Start content */
 .content {
-    margin: 33px 20px;
+    margin: 33px 20px 26px;
     flex: 1 1 0;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1025px) {
+    .content {
+        width: calc(100% - 250px); /* 100% - sidebar width */
+        margin-right: 270px;
+    }
+
+    html[dir='ltr'] .content {
+        width: calc(100% - 250px); /* 100% - sidebar width */
+        margin-left: 270px;
+    }
+}
+
+@media (max-width: 1025px) {
     .content {
         position: relative;
         right: 0;
@@ -701,7 +724,7 @@ input:checked+.slider:before {
 
 /* Start chart */
 .chart-section {
-    margin: 24px 0;
+    margin-top: 24px;
     padding: 19.5px 14px;
 }
 
