@@ -172,7 +172,7 @@ input:checked+.slider:before {
 
 @media (max-width: 767px) {
     input:checked+.slider:before {
-        transform: translateX(9px);
+        transform: translateX(11px);
     }
 }
 
