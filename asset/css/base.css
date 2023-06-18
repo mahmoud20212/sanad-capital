@@ -358,6 +358,9 @@ input:checked+.slider:before {
     width: 48px;
     height: 48px;
     border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 1025px) {
@@ -740,6 +743,13 @@ input:checked+.slider:before {
 
 .chart-header {
     margin-bottom: 30px;
+
+}
+
+@media (min-width: 768px) {
+    .chart-header {
+        margin-inline-start: 30px;
+    }
 }
 
 @media (max-width: 767px) {
