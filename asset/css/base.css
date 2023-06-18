@@ -728,6 +728,12 @@ input:checked+.slider:before {
     padding: 19.5px 14px;
 }
 
+@media (max-width: 1199px) {
+    .chart-section {
+        margin-bottom: 24px;
+    }
+}
+
 .chart-js {
     padding: 0 12px;
 }
