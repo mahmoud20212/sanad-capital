@@ -1,0 +1,162 @@
+:root {
+    --main-color: #0249AC;
+    --text-color: #1A202C;
+    --lightblue: #CBD5E0;
+    --grayscale-50: #FAFAFA;
+    --grayscale-200: #D8E3F8;
+    --grayscale-300: #E2E8F0;
+    --grayscale-400: #5D6A83;
+    --grayscale-600: #718096;
+    --c-success: #22C55E;
+    --c-sub-success: #4BB6AE;
+    --c-light-success: #F2FDF6;
+    --sub-text-color: #718096;
+    --btn-hover-color: #f0f0f0;
+    --main-border-radius: 16px;
+}
+
+/* Start color */
+.c-grayscale-200 {
+    color: var(--grayscale-200);
+}
+
+.c-grayscale-400 {
+    color: var(--grayscale-400);
+}
+
+.c-grayscale-600 {
+    color: var(--grayscale-600);
+}
+
+.c-text-main {
+    color: var(--text-color);
+}
+
+.c-lightblue {
+    color: var(--lightblue);
+}
+
+/* End color */
+
+
+/* Start font-size */
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+/* End font-size */
+
+/* Start font-weight */
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-750 {
+    font-weight: 750;
+}
+/* End font-weight */
+
+/* Start line-height */
+.lh-18 {
+    line-height: 18px;
+}
+
+.lh-22 {
+    line-height: 22px;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
+.lh-130 {
+    line-height: 130%;
+}
+
+.lh-150 {
+    line-height: 150%;
+}
+/* End line-height */
+
+/* Start letter-spacing */
+.lt-0-2 {
+    letter-spacing: 0.2px;
+}
+
+.lt-0-4 {
+    letter-spacing: 0.4px;
+}
+/* End letter-spacing */
+
+/* Start border-radius */
+.border-r-12 {
+    border-radius: 12px;
+}
+
+.border-r-16 {
+    border-radius: 16px;
+}
+/* End border-radius */
+
+/* Start border */
+.border-c {
+    border: 1px solid #EDF2F7;
+}
+/* End border */
+
+/* Start padding */
+.p-10 {
+    padding: 10px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+/* End padding */
+
+/* Start margin */
+.m-b-8 {
+    margin-bottom: 8px;
+}
+
+.m-b-13 {
+    margin-bottom: 13px;
+}
+/* End margin */
+
+/* Start gap */
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-14 {
+    gap: 14px;
+}
+/* End gap */
