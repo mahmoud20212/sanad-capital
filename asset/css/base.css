@@ -280,7 +280,7 @@ input:checked+.slider:before {
     display: flex;
     align-items: center;
     border-radius: 12px;
-    padding: 15px !important;
+    padding: 14px !important;
 }
 
 .links-box .ul-links .link-tag:hover {
